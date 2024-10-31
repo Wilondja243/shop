@@ -3,12 +3,10 @@ from shop.models import Category, Product, Article
 
 
 class CategoryAdmin(admin.ModelAdmin):
-
     list_display = ('name', 'active')
 
 
 class ProductAdmin(admin.ModelAdmin):
-
     list_display = ('name', 'category', 'active')
 
 
